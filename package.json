@@ -1,0 +1,22 @@
+{
+  "name": "albion-discord-bot",
+  "version": "1.0.0",
+  "description": "Albion Online Discord bot with TR/EN support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "albion"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.1.4"
+  }
+}
